@@ -483,6 +483,15 @@ export default function Portfolio() {
           </h2>
           <div className="space-y-4">
             <TalksBlogsItem
+              image="/talk2.avif?height=80&width=80"
+              title="5 tips for accessible web development"
+              type="Blog"
+              venue="Medium"
+              date="June 2025"
+              description="Accessibility (a11y for the cool kids) isn’t a “nice to have” — it’s essential. It makes your app inclusive, improves SEO, and even protects you legally."
+              link="https://medium.com/@tayyabataimur96/5-things-to-make-your-web-app-accessible-so-grandma-and-your-cool-cousin-can-use-it-8b66f0d30f9e"
+            />
+            <TalksBlogsItem
               image="/talk1.jpeg?height=80&width=80"
               title="Progress Web Apps"
               type="Talk"
