@@ -398,23 +398,21 @@ export default function Portfolio() {
         </div>
 
         {/* About Section */}
-        <section className="mb-10">
+        {/* <section className="mb-10">
           <h2 className="text-xl font-bold mb-3 dark:text-white">About</h2>
           <div className="text-gray-600 dark:text-gray-400 leading-relaxed text-sm">
             <p>
-              With around <b>5 years</b> of experience in
-              the web development realm ✨. You'll often find me speaking at
-              local events and conferences, advocating for accessible user
-              interfaces and overdosing on flat whites ☕. I work at <b>J.P. Morgan</b> in <b>London, UK</b> as a Software
-              Engineer III.
+              With a strong knack of creativity and a passion for pixel-perfection, I design,
+              architect and build web and mobile apps throughout my career (while overdosing on flat whites - thanks UK).
+              
             </p>
           </div>
-        </section>
+        </section> */}
 
-        {/* Work Experience Section */}
+        {/* Career Section */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 dark:text-white">
-            Work Experience
+            Career
           </h2>
           <div className="space-y-4">
             <WorkExperienceItem
@@ -500,9 +498,9 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* My Work Section */}
+        {/* Portfolio Section */}
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 dark:text-white">My Work</h2>
+          <h2 className="text-xl font-bold mb-4 dark:text-white">Portfolio</h2>
           <div className="space-y-4">
             <WorkItem
               image="/salt.webp?height=80&width=80"
