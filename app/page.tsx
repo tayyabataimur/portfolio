@@ -51,15 +51,15 @@ function WorkExperienceItem({
             alt={company}
             width={
               company === "J.P. Morgan" ||
-              company === "Falcony" ||
-              company === "CARE"
+                company === "Falcony" ||
+                company === "CARE"
                 ? 48
                 : 36
             }
             height={
               company === "J.P. Morgan" ||
-              company === "Falcony" ||
-              company === "CARE"
+                company === "Falcony" ||
+                company === "CARE"
                 ? 48
                 : 36
             }
@@ -74,9 +74,8 @@ function WorkExperienceItem({
           <div className="flex items-center gap-2">
             <h3 className="font-semibold text-sm dark:text-white">{company}</h3>
             <div
-              className={`transition-opacity ${
-                isHovered ? "opacity-100" : "opacity-0"
-              }`}
+              className={`transition-opacity ${isHovered ? "opacity-100" : "opacity-0"
+                }`}
             >
               {isExpanded ? (
                 <ChevronDown className="w-3 h-3 text-gray-400" />
@@ -250,9 +249,8 @@ export default function Portfolio() {
 
   return (
     <div
-      className={`min-h-screen transition-colors font-system relative ${
-        isDarkMode ? "dark bg-gray-900" : "bg-white"
-      }`}
+      className={`min-h-screen transition-colors font-system relative ${isDarkMode ? "dark bg-gray-900" : "bg-white"
+        }`}
     >
       {/* Background Decorations */}
       <div className="bg-decoration">
@@ -382,7 +380,7 @@ export default function Portfolio() {
             </h1>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               I make digital experiences beautiful and accessible. Talk to me
-              about design systems, accessibility and entrepreneurship.
+              about front-end, accessibility and entrepreneurship.
             </p>
           </div>
           <div className="flex-shrink-0">
@@ -404,21 +402,11 @@ export default function Portfolio() {
           <h2 className="text-xl font-bold mb-3 dark:text-white">About</h2>
           <div className="text-gray-600 dark:text-gray-400 leading-relaxed text-sm">
             <p>
-              I work at <b>J.P. Morgan</b> in <b>London, UK</b> as a Software
-              Engineer III, contributing to{" "}
-              <a
-                href="https://www.saltdesignsystem.com/salt/index"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-100 hover:text-black dark:hover:text-white font-bold underline hover:no-underline"
-              >
-                Salt
-              </a>
-              , an open-source design system used by thousands of applications
-              in the fintech space. I have over <b>5 years</b> of experience in
+              With around <b>5 years</b> of experience in
               the web development realm ✨. You'll often find me speaking at
               local events and conferences, advocating for accessible user
-              interfaces and overdosing on flat whites ☕.
+              interfaces and overdosing on flat whites ☕. I work at <b>J.P. Morgan</b> in <b>London, UK</b> as a Software
+              Engineer III.
             </p>
           </div>
         </section>
@@ -435,7 +423,7 @@ export default function Portfolio() {
               position="Software Engineer III"
               period="January 2025 — Present"
               location="London, UK"
-              description="A core contributor to Salt, J.P. Morgan's open-source design system used by thousands of applications across the organisation. Designing and building robust, reusable UI components and theming infrastructure while implementing design tokens for visual consistency. Collaborating cross-functionally with the Markets and Payments teams to drive adoption and working closely with product designers to align implementation with accessibility standards."
+              description="Contributed to J.P. Morgan's open-source design system, Salt. Currently part of a platform team that builds solutions to enable J.P. Morgan Markets (JPMM). JPMM provides a wide range of financial services including trading and execution, payments, digital solutions etc. "
             />
 
             <WorkExperienceItem
