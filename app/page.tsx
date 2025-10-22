@@ -578,7 +578,7 @@ export default function Portfolio() {
                 </p>
               </div>
               <div className="text-xs text-gray-500 dark:text-gray-400">
-                2014 — 2019
+                2014 — 2018
               </div>
             </div>
           </div>
@@ -639,10 +639,6 @@ export default function Portfolio() {
             <div className="flex items-center gap-2">
               <MapPin className="w-3 h-3" />
               <span>London, England</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Phone className="w-3 h-3" />
-              <span>+447951908006</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-3 h-3" />
